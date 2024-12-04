@@ -16,8 +16,9 @@ The webpage is made so elements are situably displayed on popular screen sizes w
 - CSS
 - Responsive Design
 
-## Deployment
+## Deployment Links
 
 This webpage is deployed to Github Pages
 
-- Deployment Link (Following feedback from first submission)
+- Deployment Link (https://kyamada-eddev.github.io/se_project_spots/)
+- Video Recording of Project 3 (https://drive.google.com/file/d/1QCT7ooJNoY-29NHDn5L-z1Gj_P8xsSCg/view?usp=sharing)
