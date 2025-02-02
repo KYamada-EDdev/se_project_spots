@@ -57,10 +57,15 @@ function getCardElement(data) {
     .cloneNode(true);
   const cardNameEl = cardElement.querySelector(".card__title");
   const cardImageEl = cardElement.querySelector(".card__image");
+  const cardLikedButton = cardElement.querySelector(".card__like-button");
 
   cardNameEl.textContent = data.name;
   cardImageEl.src = data.link;
   cardImageEl.alt = data.name;
+
+  cardLikedButton.addEventListener("click", () => {
+    cardLikedButton.classList.toggle("card__like-button_liked");
+  });
 
   return cardElement;
 }
