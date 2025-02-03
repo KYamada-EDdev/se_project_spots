@@ -88,4 +88,8 @@
     font-size: 16px;
     line-height: 16px;
   }
+
+  .card__delete-button {
+    left: 246px;
+  }
 }
