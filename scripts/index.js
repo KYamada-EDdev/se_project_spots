@@ -136,6 +136,7 @@ cardModalCloseButton.addEventListener("click", () => {
 
 previewModalCloseButton.addEventListener("click", () => {
   closeModal(previewModal);
+  previewModalImageEl.src = "";
 });
 
 editFormElement.addEventListener("submit", handleEditFormSubmit);
