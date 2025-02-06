@@ -39,8 +39,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
-  max-width: 80vw;
-  max-height: 80vh;
+  height: auto;
 }
 
 .modal__caption {
@@ -163,6 +162,8 @@
 
   .modal__image {
     border-radius: 4px;
+    max-width: 80vw;
+    max-height: 80vh;
   }
 
   .modal_opened {
