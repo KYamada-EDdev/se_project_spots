@@ -24,7 +24,6 @@
   background-color: rgb(255, 255, 255, 1);
   max-width: 730px;
   padding: 32px 50px;
-  width: 100%;
   box-sizing: border-box;
   position: relative;
   border-radius: 8px;
@@ -171,11 +170,12 @@
   }
 
   .modal__close-button {
-    top: auto;
+    top: 12px;
+    right: 12px;
   }
 
   .modal__close-button_type_preview {
-    left: 264px;
+    top: -30px;
   }
 
   .modal__caption {
