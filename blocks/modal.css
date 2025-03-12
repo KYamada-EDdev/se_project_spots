@@ -125,6 +125,11 @@
   cursor: pointer;
 }
 
+.modal__error {
+  display: block;
+  color: rgb(255, 0, 0, 0.7);
+}
+
 .modal__submit-button {
   width: 156px;
   padding: 18px 0;
