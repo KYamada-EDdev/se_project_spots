@@ -156,11 +156,9 @@
   cursor: pointer;
 }
 
-.modal__submit-button:disabled {
+.modal__submit-button_inactive {
   opacity: 0.5;
 }
-
-/* Complete the submit button error css above  */
 
 @media screen and (max-width: 627px) {
   .modal {

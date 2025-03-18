@@ -128,6 +128,9 @@ editModalCloseButton.addEventListener("click", () => {
 });
 
 cardModalButton.addEventListener("click", () => {
+  const submitButton = cardModal.querySelector(".modal__submit-button");
+  submitButton.disabled = true;
+  submitButton.classList.add("modal__submit-button_inactive");
   openModal(cardModal);
 });
 

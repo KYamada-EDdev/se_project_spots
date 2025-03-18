@@ -78,6 +78,7 @@
                 minlength="2"
                 maxlength="40"
                 required
+                autocomplete="off"
               />
               <span id="profile-name-input-error" class="modal__error"></span>
             </label>
@@ -91,13 +92,18 @@
                 minlength="2"
                 maxlength="200"
                 required
+                autocomplete="off"
               />
               <span
                 id="profile-description-input-error"
                 class="modal__error"
               ></span>
             </label>
-            <button type="submit" class="modal__submit-button" disabled>
+            <button
+              id="submit"
+              type="submit"
+              class="modal__submit-button modal__submit-button_inactive"
+            >
               Save
             </button>
           </form>
@@ -131,10 +137,15 @@
                 minlength="2"
                 maxlength="30"
                 required
+                autocomplete="off"
               />
               <span id="add-card-name-input-error" class="modal__error"></span>
             </label>
-            <button type="submit" class="modal__submit-button" disabled>
+            <button
+              id="submit"
+              type="submit"
+              class="modal__submit-button modal__submit-button_inactive"
+            >
               Save
             </button>
           </form>
